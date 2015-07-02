@@ -8,5 +8,5 @@ Ceph底层提供了分布式的RADOS存储，用与支撑上层的librados和RGW
 
 接下来马上介绍Ceph的各个基础组件。
 
-
+![](./ceph_all_component.png)
 
