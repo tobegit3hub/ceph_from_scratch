@@ -8,5 +8,8 @@
 
 ![](./docker_logo.jpg)
 
+任何人都可以在本地运行此电子书：
 
-
+```
+docker run -d -p 4000:4000 tobegit3hub/ceph_from_scratch
+```
