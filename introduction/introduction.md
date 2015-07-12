@@ -1,6 +1,6 @@
 # 简介
 
-官方对Ceph的定义是，Ceph is a distributed object, block, and file storage platform。
+Ceph is a distributed object, block, and file storage platform.
 
 也就是说，使用Ceph系统我们可以提供对象存储、块设备存储和文件系统服务，更有趣的是基于Ceph的key-value存储和NoSQL存储也在开发中，让Ceph成为目前最流行的统一存储系统。
 

@@ -4,7 +4,7 @@
 
 ![](./ceph_logo.png)
 
-本书将从零开始，介绍Ceph的用法以及CRUSH、RADOS等底层技术。并且通过官方的Ceph容器，任何人都能轻易得实践本书的内容，学习分布式存储系统像家庭作业一样简单。
+《Ceph From Scratch》将从零开始，介绍Ceph的用法以及CRUSH、RADOS等底层技术。并且借助官方的Docker容器，任何人都能轻易得实践本书的内容，学习分布式存储系统像家庭作业一样简单。
 
 ![](./docker_logo.jpg)
 
