@@ -1,6 +1,6 @@
 # Ceph From Scratch
 
-[Ceph](https://github.com/ceph/ceph)是目前最流行的统一存储统系，提供了对象存储、块设备存储以及文件系统服务。
+[Ceph](https://github.com/ceph/ceph)是目前最流行的统一存储系统，提供了对象存储、块设备存储以及文件系统服务。
 
 ![](./ceph_logo.png)
 

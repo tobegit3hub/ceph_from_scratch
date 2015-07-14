@@ -16,6 +16,7 @@
 * [Ceph架构](architecture/README.md)
    * [论文介绍](architecture/papers.md)
    * [CRUSH详解](architecture/crush.md)
+   * [CRUSH总结](architecture/crush_conclusion.md)
    * [RADOS详解](architecture/rados.md)
 * [RBD](rbd/README.md)
    * [RBD命令](rbd/rbd_commands.md)
