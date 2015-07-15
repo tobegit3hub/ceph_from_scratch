@@ -4,4 +4,10 @@
 
 感谢国内外关注Ceph的开发者以及运维人员！
 
+本书使用GitBook编写，可以通过`gitbook serve`运行，也可以使用Docker容器：
+
+```
+docker run -d -p 4000:4000 tobegit3hub/ceph_from_scratch
+```
+
 ![](ceph_company.jpg)

@@ -1,6 +1,6 @@
 # Ceph From Scratch
 
-[Ceph](https://github.com/ceph/ceph)是目前最流行的统一存储系统，提供了对象存储、块设备存储以及文件系统服务。
+[Ceph](https://github.com/ceph/ceph)是目前非常流行的统一存储系统，提供了对象存储、块设备存储以及文件系统服务。
 
 ![](./ceph_logo.png)
 
@@ -8,8 +8,3 @@
 
 ![](./docker_logo.jpg)
 
-任何人都可以在本地运行此电子书：
-
-```
-docker run -d -p 4000:4000 tobegit3hub/ceph_from_scratch
-```
