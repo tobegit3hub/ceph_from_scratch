@@ -5,7 +5,6 @@
    * [关于作者](foreword/about_author.md)
    * [致谢](foreword/thanks.md)
 * [Ceph简介](introduction/README.md)
-   * [Ceph社区](introduction/ceph_community.md)
    * [架构介绍](introduction/introduction.md)
    * [基础组件](introduction/component.md)
    * [更多介绍](introduction/more_introduction.md)
@@ -23,6 +22,7 @@
 * [RBD](rbd/README.md)
    * [RBD命令](rbd/rbd_commands.md)
 * [RGW](rgw/README.md)
+   * [RGW介绍](rgw/introduction.md)
    * [RGW用法](rgw/rgw_usage.md)
    * [S3用法](rgw/s3_usage.md)
    * [Swift用法](rgw/swift_usage.md)
@@ -33,4 +33,4 @@
 * [参与开发](development/README.md)
    * [贡献代码](development/contribute_to_ceph.md)
    * [Ceph-docker](development/ceph_docker.md)
-* [结语](conclusion)[conclusion/README.md]
+* [结语](conclusion/README.md)

@@ -1,6 +1,5 @@
 # Swift命令
 
-
 ## 创建用户
 
 ```
@@ -80,14 +79,12 @@ pip install python-swiftclient
 
 ## Swift命令
 
-前面必须配置DNS才能使用此命令。
-
 ```
-swift -V 1.0 -A http://ceph-rgw.objectstore.com/auth -U mona:swift -K secretkey post example-bucket
+swift -V 1.0 -A http://localhost/auth -U mona:swift -K secretkey post example-bucket
 ```
 
 ```
-swift -V 1.0 -A http://ceph-rgw.objectstore.com/auth -U mona:swift -K secretkey list
+swift -V 1.0 -A http://localhost/auth -U mona:swift -K secretkey list
 ```
 
 
