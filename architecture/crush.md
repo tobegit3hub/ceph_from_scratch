@@ -10,7 +10,7 @@ CRUSH全称Controlled Replication Under Scalable Hashing，是一种数据分发
 
 CRUSH算法接受的参数包括cluster map，也就是硬盘分布的逻辑位置，例如这有多少个机房、多少个机柜、硬盘是如何分布的等等。cluster map是类似树的多层结果，子节点是真正存储数据的device，每个device都有id和权重，中间节点是bucket，bucket有多种类型用于不同的查询算法，例如一个机柜一个机架一个机房就是bucket。
 
-另一个参数是placement rules，它指定了一份数据有多少备份，数据的分布有什么限制条件，例如同一份数据不能放在同一个机柜里等的功能。每个rules吧澳航一系列操作，take操作就是就是选一个bucket，select操作就是选择n个类型是t的项，emit操作就是提交最后的返回结果。select要考虑的东西主要包括是否冲突、是否有失败和负载问题。
+另一个参数是placement rules，它指定了一份数据有多少备份，数据的分布有什么限制条件，例如同一份数据不能放在同一个机柜里等的功能。每个rule就是一系列操作，take操作就是就是选一个bucket，select操作就是选择n个类型是t的项，emit操作就是提交最后的返回结果。select要考虑的东西主要包括是否冲突、是否有失败和负载问题。
 
 算法的还有一个输入是整数x，输出则是一个包含n个目标的列表R，例如三备份的话输出可能是[1, 3, 5]。
 

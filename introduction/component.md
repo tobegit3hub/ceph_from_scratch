@@ -10,7 +10,7 @@ OSD全称Object Storage Device，也就是负责响应客户端请求返回具�
 
 ## PG
 
-PG全称Placement Grouop，是一个逻辑的概念，一个PG包含多个OSD。引入PG这一层其实是为了更好的分配数据和定位数据。
+PG全称Placement Grouops，是一个逻辑的概念，一个PG包含多个OSD。引入PG这一层其实是为了更好的分配数据和定位数据。
 
 ## Monitor
 
