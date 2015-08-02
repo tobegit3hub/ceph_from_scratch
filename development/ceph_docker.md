@@ -1,0 +1,5 @@
+# Ceph-docker
+
+Ceph-docker是ceph官方团队维护的docker镜像，这些镜像都是每次有代码提交都会automated build生成的，你可以使用这些镜像快速启动ceph环境或者使用docker部署ceph集群。
+
+如果你对官方docker镜像不满意，也可以通过pull-request提交你的修改，例如前面提到的ceph-rest-api也是我们提交到ceph/demo镜像的。

@@ -31,5 +31,6 @@
    * [Ceph-rest-api](monitor/ceph_rest_api.md)
    * [Ceph-web](monitor/ceph_web.md)
 * [参与开发](development/README.md)
-   * [贡献Ceph](development/contribute_to_ceph.md)
+   * [贡献代码](development/contribute_to_ceph.md)
    * [Ceph-docker](development/ceph_docker.md)
+* [结语](conclusion)[conclusion/README.md]

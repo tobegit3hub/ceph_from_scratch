@@ -30,6 +30,8 @@ zone_info.default
 
 ## 容量相关
 
+获得当前OSD所用容量。
+
 ```
 root@dev:/# rados df
 pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB

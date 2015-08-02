@@ -2,16 +2,21 @@
 
 ## OSD状态
 
+列举当前所有OSD。
+
 ```
 root@dev:/# ceph osd ls
 0
 ```
 
+查看OSD状态。
 
 ```
 root@dev:/# ceph osd stat
      osdmap e21: 1 osds: 1 up, 1 in
 ```
+
+查看OSD树形结构。
 
 ```
 root@dev:/# ceph osd tree
@@ -20,6 +25,8 @@ ID WEIGHT  TYPE NAME     UP/DOWN REWEIGHT PRIMARY-AFFINITY
 -2 1.00000     host dev
  0 1.00000         osd.0      up  1.00000          1.00000
 ```
+
+导出OSD详细信息。
 
 ```
 root@dev:/# ceph osd dump
@@ -42,10 +49,14 @@ osd.0 up   in  weight 1 up_from 20 up_thru 20 down_at 19 last_clean_interval [5,
 
 ## Monitor状态
 
+查看Monitor状态。
+
 ```
 root@dev:/# ceph mon stat
 e1: 1 mons at {dev=10.0.2.15:6789/0}, election epoch 2, quorum 0 dev
 ```
+
+导出Monitor详细信息。
 
 ```
 root@dev:/# ceph mon dump
@@ -58,6 +69,8 @@ created 2015-07-12 05:59:11.900924
 ```
 
 ## PG操作
+
+导出PG详细信息。
 
 ```
 root@dev:/# ceph pg dump
@@ -77,14 +90,20 @@ osdstat kbused  kbavail kb      hb in   hb out
 
 ## CRUSH操作
 
+导出CRUSH详细信息。
+
 ```
 root@dev:/# ceph osd crush dump
 ```
+
+将CURHS导出为不可读的配置文件。
 
 ```
 root@dev:/# ceph osd getcrushmap -o crushmap.txt
 got crush map from osdmap epoch 21
 ```
+
+解码CRUSH配置文件为可读的文本文件。
 
 ```
 root@dev:/# crushtool -d crushmap.txt -o crushmap-decompile.txt
