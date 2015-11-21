@@ -21,6 +21,7 @@
    * [RADOS详解](architecture/rados.md)
 * [RBD](rbd/README.md)
    * [RBD命令](rbd/rbd_commands.md)
+   * [RBD快照](rbd/rbd_snapshot.md)
 * [RGW](rgw/README.md)
    * [RGW介绍](rgw/introduction.md)
    * [RGW用法](rgw/rgw_usage.md)
