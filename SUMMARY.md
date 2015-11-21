@@ -26,6 +26,7 @@
    * [RBD和Qemu](rbd/rbd_and_qemu.md)
    * [RBD和Virsh](rbd/rbd_and_virsh.md)
    * [RBD和OpenStack](rbd/rbd_and_openstack.md)
+   * [Python librbd](rbd/python_librbd.md)
 * [RGW](rgw/README.md)
    * [RGW介绍](rgw/introduction.md)
    * [RGW用法](rgw/rgw_usage.md)
