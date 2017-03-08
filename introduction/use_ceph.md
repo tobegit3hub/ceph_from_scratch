@@ -18,7 +18,7 @@ eth0      Link encap:Ethernet  HWaddr 08:00:27:F9:89:52
 记住本机IP为10.0.2.15，然后可以使用[ceph-docker](https://github.com/ceph/ceph-docker)提供的命令。
 
 ```
-docker run -d --net=host -e MON_IP=10.0.2.15 -e CEPH_NETWORK=10.0.2.0/24 ceph/demo
+docker run -d --net=host -e MON_IP=10.0.2.15 -e CEPH_PUBLIC_NETWORK=10.0.2.0/24 ceph/demo
 ```
 
 这样就启动一个单机版Ceph服务了，通过`docker exec`进入容器，开始体验Ceph命令吧。
