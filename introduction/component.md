@@ -10,7 +10,7 @@ OSD全称Object Storage Device，也就是负责响应客户端请求返回具�
 
 ## PG
 
-PG全称Placement Grouops，是一个逻辑的概念，一个PG包含多个OSD。引入PG这一层其实是为了更好的分配数据和定位数据。
+PG全称Placement Groups，是一个逻辑的概念，一个PG包含多个OSD。引入PG这一层其实是为了更好的分配数据和定位数据。
 
 ## Monitor
 
@@ -20,7 +20,7 @@ PG全称Placement Grouops，是一个逻辑的概念，一个PG包含多个OSD�
 
 RADOS全称Reliable Autonomic Distributed Object Store，是Ceph集群的精华，用户实现数据分配、Failover等集群操作。
 
-## Libradio
+## Librados
 
 Librados是Rados提供库，因为RADOS是协议很难直接访问，因此上层的RBD、RGW和CephFS都是通过librados访问的，目前提供PHP、Ruby、Java、Python、C和C++支持。
 

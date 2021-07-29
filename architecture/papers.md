@@ -14,7 +14,7 @@ CRUSH论文标题为《CRUSH: Controlled, Scalable, Decentralized Placement of R
 
 ## RADOS论文
 
-RADOS沦为标题为《RADOS: A Scalable, Reliable Storage Service for Petabyte-scale Storage Clusters》，地址为 https://ceph.com/wp-content/uploads/2016/08/weil-rados-pdsw07.pdf ，介绍了RADOS的设计与实现细节。
+RADOS论文标题为《RADOS: A Scalable, Reliable Storage Service for Petabyte-scale Storage Clusters》，地址为 https://ceph.com/wp-content/uploads/2016/08/weil-rados-pdsw07.pdf ，介绍了RADOS的设计与实现细节。
 
 ## CephFS论文
 
